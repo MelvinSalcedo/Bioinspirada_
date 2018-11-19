@@ -1,7 +1,7 @@
 <?php
 
 
-require 'Calculator.php';
+require 'Proyecto/app/Calculator.php';
 use PHPUnit\Framework\TestCase;
 
 class CalculatorTests extends TestCase
