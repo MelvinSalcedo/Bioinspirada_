@@ -21,6 +21,7 @@ class CalculatorTests extends TestCase
     public function testAdd()
     {
         $result = $this->calculator->add(4, 2);
+        $resultb = $this->calculator->add(4, 2);
         $this->assertEquals(3, $result);
     }
  
